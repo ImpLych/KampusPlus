@@ -1,0 +1,20 @@
+﻿<Window x:Class="YourProjectName.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ScrollViewer Demo" Height="450" Width="800">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="10">
+            <TextBlock Text="Birinci Satır" FontSize="24" Margin="5"/>
+            <TextBlock Text="İkinci Satır" FontSize="24" Margin="5"/>
+            <TextBlock Text="Üçüncü Satır" FontSize="24" Margin="5"/>
+            <TextBlock Text="Dördüncü Satır" FontSize="24" Margin="5"/>
+            <TextBlock Text="Beşinci Satır" FontSize="24" Margin="5"/>
+            <TextBlock Text="Altıncı Satır" FontSize="24" Margin="5"/>
+            <TextBlock Text="Yedinci Satır" FontSize="24" Margin="5"/>
+            <TextBlock Text="Sekizinci Satır" FontSize="24" Margin="5"/>
+            <TextBlock Text="Dokuzuncu Satır" FontSize="24" Margin="5"/>
+            <TextBlock Text="Onuncu Satır" FontSize="24" Margin="5"/>
+            <!-- Daha fazla satır eklersen scroll bar otomatik çıkar -->
+        </StackPanel>
+    </ScrollViewer>
+</Window>
