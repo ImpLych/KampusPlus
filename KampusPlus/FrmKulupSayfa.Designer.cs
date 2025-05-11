@@ -30,7 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmKulupSayfa));
             this.panel4 = new System.Windows.Forms.Panel();
+            this.picCikis = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.picGeri = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.BtnGiris = new System.Windows.Forms.Button();
             this.BtnAra = new System.Windows.Forms.Button();
@@ -50,10 +52,10 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.btnkayıtol = new System.Windows.Forms.Button();
-            this.picCikis = new System.Windows.Forms.PictureBox();
-            this.picGeri = new System.Windows.Forms.PictureBox();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -63,8 +65,6 @@
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).BeginInit();
             this.SuspendLayout();
             // 
             // panel4
@@ -78,6 +78,16 @@
             this.panel4.Size = new System.Drawing.Size(379, 72);
             this.panel4.TabIndex = 7;
             // 
+            // picCikis
+            // 
+            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
+            this.picCikis.Location = new System.Drawing.Point(336, 3);
+            this.picCikis.Name = "picCikis";
+            this.picCikis.Size = new System.Drawing.Size(43, 42);
+            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCikis.TabIndex = 18;
+            this.picCikis.TabStop = false;
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
@@ -87,6 +97,16 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
+            // 
+            // picGeri
+            // 
+            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
+            this.picGeri.Location = new System.Drawing.Point(3, 3);
+            this.picGeri.Name = "picGeri";
+            this.picGeri.Size = new System.Drawing.Size(38, 35);
+            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picGeri.TabIndex = 17;
+            this.picGeri.TabStop = false;
             // 
             // panel6
             // 
@@ -309,26 +329,6 @@
             this.btnkayıtol.Text = "KAYIT OL";
             this.btnkayıtol.UseVisualStyleBackColor = false;
             // 
-            // picCikis
-            // 
-            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
-            this.picCikis.Location = new System.Drawing.Point(336, 3);
-            this.picCikis.Name = "picCikis";
-            this.picCikis.Size = new System.Drawing.Size(43, 42);
-            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCikis.TabIndex = 18;
-            this.picCikis.TabStop = false;
-            // 
-            // picGeri
-            // 
-            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
-            this.picGeri.Location = new System.Drawing.Point(3, 3);
-            this.picGeri.Name = "picGeri";
-            this.picGeri.Size = new System.Drawing.Size(38, 35);
-            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picGeri.TabIndex = 17;
-            this.picGeri.TabStop = false;
-            // 
             // FrmKulupSayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -350,7 +350,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmKulupSayfa";
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -363,8 +365,6 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
             this.ResumeLayout(false);
 
         }

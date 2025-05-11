@@ -62,12 +62,6 @@
     <Compile Include="FrmAnasayfa2.Designer.cs">
       <DependentUpon>FrmAnasayfa2.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmDegerlendir.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmDegerlendir.Designer.cs">
-      <DependentUpon>FrmDegerlendir.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmGiris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,9 +129,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAnasayfa2.resx">
       <DependentUpon>FrmAnasayfa2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmDegerlendir.resx">
-      <DependentUpon>FrmDegerlendir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmGiris.resx">
       <DependentUpon>FrmGiris.cs</DependentUpon>

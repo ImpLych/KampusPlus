@@ -35,10 +35,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtfirmasahibi = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtkulüpler = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtetkinlikler = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txttelefon = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,19 +43,19 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.picCikis = new System.Windows.Forms.PictureBox();
+            this.picGeri = new System.Windows.Forms.PictureBox();
             this.BtnAnasayfa = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.BtnGiris = new System.Windows.Forms.Button();
             this.BtnAra = new System.Windows.Forms.Button();
-            this.picCikis = new System.Windows.Forms.PictureBox();
-            this.picGeri = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
-            this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCikis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picGeri)).BeginInit();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnbasvur
@@ -67,7 +63,7 @@
             this.btnbasvur.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
             this.btnbasvur.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnbasvur.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.btnbasvur.Location = new System.Drawing.Point(125, 564);
+            this.btnbasvur.Location = new System.Drawing.Point(122, 493);
             this.btnbasvur.Name = "btnbasvur";
             this.btnbasvur.Size = new System.Drawing.Size(111, 39);
             this.btnbasvur.TabIndex = 45;
@@ -126,69 +122,21 @@
             this.flowLayoutPanel1.Controls.Add(this.txtfirmaad);
             this.flowLayoutPanel1.Controls.Add(this.label6);
             this.flowLayoutPanel1.Controls.Add(this.txtfirmasahibi);
-            this.flowLayoutPanel1.Controls.Add(this.label5);
-            this.flowLayoutPanel1.Controls.Add(this.txtkulüpler);
-            this.flowLayoutPanel1.Controls.Add(this.label4);
-            this.flowLayoutPanel1.Controls.Add(this.txtetkinlikler);
             this.flowLayoutPanel1.Controls.Add(this.label2);
             this.flowLayoutPanel1.Controls.Add(this.txttelefon);
             this.flowLayoutPanel1.Controls.Add(this.label3);
             this.flowLayoutPanel1.Controls.Add(this.txtmail);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(15, 121);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(15, 183);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(341, 437);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(341, 304);
             this.flowLayoutPanel1.TabIndex = 44;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.label5.Location = new System.Drawing.Point(3, 143);
-            this.label5.Margin = new System.Windows.Forms.Padding(3);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 25);
-            this.label5.TabIndex = 30;
-            this.label5.Text = "Kulüpler :";
-            // 
-            // txtkulüpler
-            // 
-            this.txtkulüpler.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
-            this.txtkulüpler.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtkulüpler.Font = new System.Drawing.Font("Montserrat SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtkulüpler.Location = new System.Drawing.Point(3, 174);
-            this.txtkulüpler.Name = "txtkulüpler";
-            this.txtkulüpler.Size = new System.Drawing.Size(328, 33);
-            this.txtkulüpler.TabIndex = 29;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.label4.Location = new System.Drawing.Point(3, 213);
-            this.label4.Margin = new System.Windows.Forms.Padding(3);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(181, 25);
-            this.label4.TabIndex = 28;
-            this.label4.Text = "Yaklaşan Etkinlikler:";
-            // 
-            // txtetkinlikler
-            // 
-            this.txtetkinlikler.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
-            this.txtetkinlikler.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtetkinlikler.Font = new System.Drawing.Font("Montserrat SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtetkinlikler.Location = new System.Drawing.Point(3, 244);
-            this.txtetkinlikler.Name = "txtetkinlikler";
-            this.txtetkinlikler.Size = new System.Drawing.Size(328, 33);
-            this.txtetkinlikler.TabIndex = 26;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.label2.Location = new System.Drawing.Point(3, 283);
+            this.label2.Location = new System.Drawing.Point(3, 143);
             this.label2.Margin = new System.Windows.Forms.Padding(3);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 25);
@@ -200,7 +148,7 @@
             this.txttelefon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
             this.txttelefon.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txttelefon.Font = new System.Drawing.Font("Montserrat SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txttelefon.Location = new System.Drawing.Point(3, 314);
+            this.txttelefon.Location = new System.Drawing.Point(3, 174);
             this.txttelefon.Name = "txttelefon";
             this.txttelefon.Size = new System.Drawing.Size(328, 33);
             this.txttelefon.TabIndex = 24;
@@ -210,7 +158,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.label3.Location = new System.Drawing.Point(3, 353);
+            this.label3.Location = new System.Drawing.Point(3, 213);
             this.label3.Margin = new System.Windows.Forms.Padding(3);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 25);
@@ -222,7 +170,7 @@
             this.txtmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
             this.txtmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtmail.Font = new System.Drawing.Font("Montserrat SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtmail.Location = new System.Drawing.Point(3, 384);
+            this.txtmail.Location = new System.Drawing.Point(3, 244);
             this.txtmail.Name = "txtmail";
             this.txtmail.Size = new System.Drawing.Size(328, 33);
             this.txtmail.TabIndex = 22;
@@ -240,7 +188,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(308, 78);
+            this.pictureBox1.Location = new System.Drawing.Point(301, 122);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(55, 37);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -252,7 +200,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(116)))), ((int)(((byte)(111)))));
-            this.label1.Location = new System.Drawing.Point(8, 75);
+            this.label1.Location = new System.Drawing.Point(8, 122);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(274, 38);
             this.label1.TabIndex = 41;
@@ -268,6 +216,26 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(379, 75);
             this.panel4.TabIndex = 40;
+            // 
+            // picCikis
+            // 
+            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
+            this.picCikis.Location = new System.Drawing.Point(333, 3);
+            this.picCikis.Name = "picCikis";
+            this.picCikis.Size = new System.Drawing.Size(43, 42);
+            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCikis.TabIndex = 47;
+            this.picCikis.TabStop = false;
+            // 
+            // picGeri
+            // 
+            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
+            this.picGeri.Location = new System.Drawing.Point(0, 3);
+            this.picGeri.Name = "picGeri";
+            this.picGeri.Size = new System.Drawing.Size(38, 35);
+            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picGeri.TabIndex = 46;
+            this.picGeri.TabStop = false;
             // 
             // BtnAnasayfa
             // 
@@ -331,37 +299,17 @@
             this.BtnAra.TabIndex = 4;
             this.BtnAra.UseVisualStyleBackColor = false;
             // 
-            // picCikis
-            // 
-            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
-            this.picCikis.Location = new System.Drawing.Point(333, 3);
-            this.picCikis.Name = "picCikis";
-            this.picCikis.Size = new System.Drawing.Size(43, 42);
-            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCikis.TabIndex = 47;
-            this.picCikis.TabStop = false;
-            // 
-            // picGeri
-            // 
-            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
-            this.picGeri.Location = new System.Drawing.Point(0, 3);
-            this.picGeri.Name = "picGeri";
-            this.picGeri.Size = new System.Drawing.Size(38, 35);
-            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picGeri.TabIndex = 46;
-            this.picGeri.TabStop = false;
-            // 
             // FrmSponsorBasvuru
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(375, 667);
-            this.Controls.Add(this.btnbasvur);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel6);
+            this.Controls.Add(this.btnbasvur);
             this.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
@@ -372,9 +320,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
+            this.panel6.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -388,10 +336,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtfirmasahibi;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtkulüpler;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtetkinlikler;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txttelefon;
         private System.Windows.Forms.Label label3;

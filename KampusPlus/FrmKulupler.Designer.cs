@@ -34,7 +34,9 @@
             this.BtnAra = new System.Windows.Forms.Button();
             this.BtnAnasayfa = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.picCikis = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.picGeri = new System.Windows.Forms.PictureBox();
             this.BtnKulup1 = new System.Windows.Forms.Button();
             this.BtnKulup4 = new System.Windows.Forms.Button();
             this.BtnKulup5 = new System.Windows.Forms.Button();
@@ -42,27 +44,25 @@
             this.BtnKulup3 = new System.Windows.Forms.Button();
             this.BtnKulup6 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.TxtArama = new System.Windows.Forms.TextBox();
-            this.CmbTumKulupler = new System.Windows.Forms.ComboBox();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.CmbTumKulupler = new System.Windows.Forms.ComboBox();
+            this.TxtArama = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.picCikis = new System.Windows.Forms.PictureBox();
-            this.picGeri = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panel6.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel3.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picCikis)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picGeri)).BeginInit();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel6
@@ -141,6 +141,16 @@
             this.panel4.Size = new System.Drawing.Size(382, 69);
             this.panel4.TabIndex = 9;
             // 
+            // picCikis
+            // 
+            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
+            this.picCikis.Location = new System.Drawing.Point(336, 0);
+            this.picCikis.Name = "picCikis";
+            this.picCikis.Size = new System.Drawing.Size(43, 42);
+            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCikis.TabIndex = 13;
+            this.picCikis.TabStop = false;
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
@@ -150,6 +160,16 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
+            // 
+            // picGeri
+            // 
+            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
+            this.picGeri.Location = new System.Drawing.Point(3, 0);
+            this.picGeri.Name = "picGeri";
+            this.picGeri.Size = new System.Drawing.Size(38, 35);
+            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picGeri.TabIndex = 12;
+            this.picGeri.TabStop = false;
             // 
             // BtnKulup1
             // 
@@ -266,23 +286,6 @@
             this.panel3.Size = new System.Drawing.Size(382, 547);
             this.panel3.TabIndex = 8;
             // 
-            // TxtArama
-            // 
-            this.TxtArama.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(116)))), ((int)(((byte)(113)))));
-            this.TxtArama.Location = new System.Drawing.Point(17, 18);
-            this.TxtArama.Name = "TxtArama";
-            this.TxtArama.Size = new System.Drawing.Size(313, 27);
-            this.TxtArama.TabIndex = 21;
-            // 
-            // CmbTumKulupler
-            // 
-            this.CmbTumKulupler.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(116)))), ((int)(((byte)(113)))));
-            this.CmbTumKulupler.FormattingEnabled = true;
-            this.CmbTumKulupler.Location = new System.Drawing.Point(144, 61);
-            this.CmbTumKulupler.Name = "CmbTumKulupler";
-            this.CmbTumKulupler.Size = new System.Drawing.Size(217, 33);
-            this.CmbTumKulupler.TabIndex = 20;
-            // 
             // button10
             // 
             this.button10.BackColor = System.Drawing.Color.Transparent;
@@ -373,25 +376,22 @@
             this.button15.TabIndex = 17;
             this.button15.UseVisualStyleBackColor = false;
             // 
-            // panel1
+            // CmbTumKulupler
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(210)))), ((int)(((byte)(194)))));
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(3, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(379, 110);
-            this.panel1.TabIndex = 22;
+            this.CmbTumKulupler.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(116)))), ((int)(((byte)(113)))));
+            this.CmbTumKulupler.FormattingEnabled = true;
+            this.CmbTumKulupler.Location = new System.Drawing.Point(144, 61);
+            this.CmbTumKulupler.Name = "CmbTumKulupler";
+            this.CmbTumKulupler.Size = new System.Drawing.Size(217, 33);
+            this.CmbTumKulupler.TabIndex = 20;
             // 
-            // pictureBox1
+            // TxtArama
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(333, 18);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 27);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
+            this.TxtArama.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(116)))), ((int)(((byte)(113)))));
+            this.TxtArama.Location = new System.Drawing.Point(17, 18);
+            this.TxtArama.Name = "TxtArama";
+            this.TxtArama.Size = new System.Drawing.Size(313, 27);
+            this.TxtArama.TabIndex = 21;
             // 
             // label2
             // 
@@ -405,25 +405,25 @@
             this.label2.Text = "Tüm Kulüpler";
             this.label2.UseCompatibleTextRendering = true;
             // 
-            // picCikis
+            // pictureBox1
             // 
-            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
-            this.picCikis.Location = new System.Drawing.Point(336, 0);
-            this.picCikis.Name = "picCikis";
-            this.picCikis.Size = new System.Drawing.Size(43, 42);
-            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCikis.TabIndex = 13;
-            this.picCikis.TabStop = false;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(333, 18);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(32, 27);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
-            // picGeri
+            // panel1
             // 
-            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
-            this.picGeri.Location = new System.Drawing.Point(3, 0);
-            this.picGeri.Name = "picGeri";
-            this.picGeri.Size = new System.Drawing.Size(38, 35);
-            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picGeri.TabIndex = 12;
-            this.picGeri.TabStop = false;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(210)))), ((int)(((byte)(194)))));
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Location = new System.Drawing.Point(3, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(379, 110);
+            this.panel1.TabIndex = 22;
             // 
             // FrmKulupler
             // 
@@ -441,14 +441,14 @@
             this.Text = "FrmKulupler";
             this.panel6.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -469,16 +469,16 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.TextBox TxtArama;
-        private System.Windows.Forms.ComboBox CmbTumKulupler;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button BtnGiris;
         private System.Windows.Forms.Button BtnAra;
         private System.Windows.Forms.Button BtnAnasayfa;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox picCikis;
         private System.Windows.Forms.PictureBox picGeri;
+        private System.Windows.Forms.TextBox TxtArama;
+        private System.Windows.Forms.ComboBox CmbTumKulupler;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -31,16 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmKulupKayit));
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.picCikis = new System.Windows.Forms.PictureBox();
+            this.picGeri = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.MskTelefon = new System.Windows.Forms.MaskedTextBox();
             this.BtnUyeOl = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.TxtMail = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.TxtSifre = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.TxtKullaniciAdi = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.TxtKulupAdi = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -49,15 +47,15 @@
             this.BtnAra = new System.Windows.Forms.Button();
             this.BtnAnasayfa = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.picCikis = new System.Windows.Forms.PictureBox();
-            this.picGeri = new System.Windows.Forms.PictureBox();
+            this.TxtKullaniciAdi = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox4
@@ -83,6 +81,26 @@
             this.panel4.TabIndex = 8;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
+            // picCikis
+            // 
+            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
+            this.picCikis.Location = new System.Drawing.Point(333, 0);
+            this.picCikis.Name = "picCikis";
+            this.picCikis.Size = new System.Drawing.Size(43, 42);
+            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCikis.TabIndex = 13;
+            this.picCikis.TabStop = false;
+            // 
+            // picGeri
+            // 
+            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
+            this.picGeri.Location = new System.Drawing.Point(0, 0);
+            this.picGeri.Name = "picGeri";
+            this.picGeri.Size = new System.Drawing.Size(38, 35);
+            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picGeri.TabIndex = 12;
+            this.picGeri.TabStop = false;
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
@@ -91,8 +109,6 @@
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.TxtMail);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.TxtSifre);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.TxtKullaniciAdi);
             this.panel1.Controls.Add(this.label3);
@@ -107,7 +123,7 @@
             // 
             this.MskTelefon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
             this.MskTelefon.Font = new System.Drawing.Font("Montserrat SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MskTelefon.Location = new System.Drawing.Point(8, 369);
+            this.MskTelefon.Location = new System.Drawing.Point(8, 287);
             this.MskTelefon.Mask = "(999) 000-0000";
             this.MskTelefon.Name = "MskTelefon";
             this.MskTelefon.Size = new System.Drawing.Size(282, 27);
@@ -118,7 +134,7 @@
             this.BtnUyeOl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
             this.BtnUyeOl.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnUyeOl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.BtnUyeOl.Location = new System.Drawing.Point(102, 417);
+            this.BtnUyeOl.Location = new System.Drawing.Point(93, 360);
             this.BtnUyeOl.Name = "BtnUyeOl";
             this.BtnUyeOl.Size = new System.Drawing.Size(111, 39);
             this.BtnUyeOl.TabIndex = 17;
@@ -130,7 +146,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.label6.Location = new System.Drawing.Point(3, 341);
+            this.label6.Location = new System.Drawing.Point(3, 259);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(105, 25);
             this.label6.TabIndex = 21;
@@ -141,7 +157,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.label5.Location = new System.Drawing.Point(3, 260);
+            this.label5.Location = new System.Drawing.Point(3, 178);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(109, 25);
             this.label5.TabIndex = 19;
@@ -152,52 +168,10 @@
             this.TxtMail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
             this.TxtMail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtMail.Font = new System.Drawing.Font("Montserrat SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtMail.Location = new System.Drawing.Point(8, 288);
+            this.TxtMail.Location = new System.Drawing.Point(8, 206);
             this.TxtMail.Name = "TxtMail";
             this.TxtMail.Size = new System.Drawing.Size(282, 33);
             this.TxtMail.TabIndex = 18;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.label4.Location = new System.Drawing.Point(3, 179);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 25);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "Şifre:";
-            // 
-            // TxtSifre
-            // 
-            this.TxtSifre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
-            this.TxtSifre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtSifre.Font = new System.Drawing.Font("Montserrat SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtSifre.Location = new System.Drawing.Point(8, 207);
-            this.TxtSifre.Name = "TxtSifre";
-            this.TxtSifre.Size = new System.Drawing.Size(282, 33);
-            this.TxtSifre.TabIndex = 16;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.label2.Location = new System.Drawing.Point(3, 98);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 25);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "Kullanıcı Adı:";
-            // 
-            // TxtKullaniciAdi
-            // 
-            this.TxtKullaniciAdi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
-            this.TxtKullaniciAdi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtKullaniciAdi.Font = new System.Drawing.Font("Montserrat SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtKullaniciAdi.Location = new System.Drawing.Point(8, 126);
-            this.TxtKullaniciAdi.Name = "TxtKullaniciAdi";
-            this.TxtKullaniciAdi.Size = new System.Drawing.Size(282, 33);
-            this.TxtKullaniciAdi.TabIndex = 14;
             // 
             // label3
             // 
@@ -303,25 +277,26 @@
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
-            // picCikis
+            // TxtKullaniciAdi
             // 
-            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
-            this.picCikis.Location = new System.Drawing.Point(333, 0);
-            this.picCikis.Name = "picCikis";
-            this.picCikis.Size = new System.Drawing.Size(43, 42);
-            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCikis.TabIndex = 13;
-            this.picCikis.TabStop = false;
+            this.TxtKullaniciAdi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
+            this.TxtKullaniciAdi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtKullaniciAdi.Font = new System.Drawing.Font("Montserrat SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtKullaniciAdi.Location = new System.Drawing.Point(8, 126);
+            this.TxtKullaniciAdi.Name = "TxtKullaniciAdi";
+            this.TxtKullaniciAdi.Size = new System.Drawing.Size(282, 33);
+            this.TxtKullaniciAdi.TabIndex = 14;
             // 
-            // picGeri
+            // label2
             // 
-            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
-            this.picGeri.Location = new System.Drawing.Point(0, 0);
-            this.picGeri.Name = "picGeri";
-            this.picGeri.Size = new System.Drawing.Size(38, 35);
-            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picGeri.TabIndex = 12;
-            this.picGeri.TabStop = false;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
+            this.label2.Location = new System.Drawing.Point(3, 98);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(122, 25);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Kullanıcı Adı:";
             // 
             // FrmKulupKayit
             // 
@@ -339,12 +314,12 @@
             this.Text = "FrmKulupKayit";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -367,12 +342,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox TxtMail;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox TxtSifre;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox TxtKullaniciAdi;
         private System.Windows.Forms.MaskedTextBox MskTelefon;
         private System.Windows.Forms.PictureBox picCikis;
         private System.Windows.Forms.PictureBox picGeri;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox TxtKullaniciAdi;
     }
 }

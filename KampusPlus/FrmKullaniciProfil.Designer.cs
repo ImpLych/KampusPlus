@@ -43,32 +43,29 @@
             this.lblUyeKulup2 = new System.Windows.Forms.Label();
             this.lblUyeKulup1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.picCikis = new System.Windows.Forms.PictureBox();
+            this.picGeri = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.lnkEtkinlik3 = new System.Windows.Forms.LinkLabel();
-            this.lnkEtkinlik2 = new System.Windows.Forms.LinkLabel();
-            this.lnkEtkinlik1 = new System.Windows.Forms.LinkLabel();
             this.lblEtkinlik3 = new System.Windows.Forms.Label();
             this.lblEtkinlik2 = new System.Windows.Forms.Label();
             this.lblEtkinlik1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.picCikis = new System.Windows.Forms.PictureBox();
-            this.picGeri = new System.Windows.Forms.PictureBox();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).BeginInit();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnAra
@@ -232,6 +229,26 @@
             this.panel4.Size = new System.Drawing.Size(379, 75);
             this.panel4.TabIndex = 46;
             // 
+            // picCikis
+            // 
+            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
+            this.picCikis.Location = new System.Drawing.Point(336, 3);
+            this.picCikis.Name = "picCikis";
+            this.picCikis.Size = new System.Drawing.Size(43, 42);
+            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCikis.TabIndex = 13;
+            this.picCikis.TabStop = false;
+            // 
+            // picGeri
+            // 
+            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
+            this.picGeri.Location = new System.Drawing.Point(3, 3);
+            this.picGeri.Name = "picGeri";
+            this.picGeri.Size = new System.Drawing.Size(38, 35);
+            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picGeri.TabIndex = 12;
+            this.picGeri.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
@@ -265,9 +282,6 @@
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.lnkEtkinlik3);
-            this.panel7.Controls.Add(this.lnkEtkinlik2);
-            this.panel7.Controls.Add(this.lnkEtkinlik1);
             this.panel7.Controls.Add(this.lblEtkinlik3);
             this.panel7.Controls.Add(this.lblEtkinlik2);
             this.panel7.Controls.Add(this.lblEtkinlik1);
@@ -275,36 +289,6 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(327, 210);
             this.panel7.TabIndex = 0;
-            // 
-            // lnkEtkinlik3
-            // 
-            this.lnkEtkinlik3.AutoSize = true;
-            this.lnkEtkinlik3.Location = new System.Drawing.Point(226, 88);
-            this.lnkEtkinlik3.Name = "lnkEtkinlik3";
-            this.lnkEtkinlik3.Size = new System.Drawing.Size(98, 25);
-            this.lnkEtkinlik3.TabIndex = 5;
-            this.lnkEtkinlik3.TabStop = true;
-            this.lnkEtkinlik3.Text = "linkLabel3";
-            // 
-            // lnkEtkinlik2
-            // 
-            this.lnkEtkinlik2.AutoSize = true;
-            this.lnkEtkinlik2.Location = new System.Drawing.Point(226, 49);
-            this.lnkEtkinlik2.Name = "lnkEtkinlik2";
-            this.lnkEtkinlik2.Size = new System.Drawing.Size(98, 25);
-            this.lnkEtkinlik2.TabIndex = 4;
-            this.lnkEtkinlik2.TabStop = true;
-            this.lnkEtkinlik2.Text = "linkLabel2";
-            // 
-            // lnkEtkinlik1
-            // 
-            this.lnkEtkinlik1.AutoSize = true;
-            this.lnkEtkinlik1.Location = new System.Drawing.Point(229, 9);
-            this.lnkEtkinlik1.Name = "lnkEtkinlik1";
-            this.lnkEtkinlik1.Size = new System.Drawing.Size(95, 25);
-            this.lnkEtkinlik1.TabIndex = 3;
-            this.lnkEtkinlik1.TabStop = true;
-            this.lnkEtkinlik1.Text = "linkLabel1";
             // 
             // lblEtkinlik3
             // 
@@ -354,26 +338,6 @@
             this.label6.TabIndex = 38;
             this.label6.Text = "Katıldığım Etkinlikler";
             // 
-            // picCikis
-            // 
-            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
-            this.picCikis.Location = new System.Drawing.Point(336, 3);
-            this.picCikis.Name = "picCikis";
-            this.picCikis.Size = new System.Drawing.Size(43, 42);
-            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCikis.TabIndex = 13;
-            this.picCikis.TabStop = false;
-            // 
-            // picGeri
-            // 
-            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
-            this.picGeri.Location = new System.Drawing.Point(3, 3);
-            this.picGeri.Name = "picGeri";
-            this.picGeri.Size = new System.Drawing.Size(38, 35);
-            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picGeri.TabIndex = 12;
-            this.picGeri.TabStop = false;
-            // 
             // FrmKullaniciProfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
@@ -401,6 +365,8 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
@@ -408,8 +374,6 @@
             this.panel7.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -440,9 +404,6 @@
         private System.Windows.Forms.Label lblEtkinlik1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.LinkLabel lnkEtkinlik3;
-        private System.Windows.Forms.LinkLabel lnkEtkinlik2;
-        private System.Windows.Forms.LinkLabel lnkEtkinlik1;
         private System.Windows.Forms.PictureBox picCikis;
         private System.Windows.Forms.PictureBox picGeri;
     }

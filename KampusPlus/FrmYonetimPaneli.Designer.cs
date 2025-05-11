@@ -37,6 +37,8 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.BtnAra = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.picCikis = new System.Windows.Forms.PictureBox();
+            this.picGeri = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
@@ -44,12 +46,10 @@
             this.rchvizyon = new System.Windows.Forms.RichTextBox();
             this.rchmisyon = new System.Windows.Forms.RichTextBox();
             this.msktelefon = new System.Windows.Forms.MaskedTextBox();
-            this.txtsifre = new System.Windows.Forms.TextBox();
             this.txtmail = new System.Windows.Forms.TextBox();
             this.txtisim = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
@@ -70,15 +70,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.picCikis = new System.Windows.Forms.PictureBox();
-            this.picGeri = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel6.SuspendLayout();
@@ -94,8 +93,6 @@
             this.panel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox4
@@ -202,6 +199,26 @@
             this.panel4.Size = new System.Drawing.Size(379, 75);
             this.panel4.TabIndex = 56;
             // 
+            // picCikis
+            // 
+            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
+            this.picCikis.Location = new System.Drawing.Point(333, 3);
+            this.picCikis.Name = "picCikis";
+            this.picCikis.Size = new System.Drawing.Size(43, 42);
+            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCikis.TabIndex = 13;
+            this.picCikis.TabStop = false;
+            // 
+            // picGeri
+            // 
+            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
+            this.picGeri.Location = new System.Drawing.Point(0, 3);
+            this.picGeri.Name = "picGeri";
+            this.picGeri.Size = new System.Drawing.Size(38, 35);
+            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picGeri.TabIndex = 12;
+            this.picGeri.TabStop = false;
+            // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
@@ -242,12 +259,10 @@
             this.panel11.Controls.Add(this.rchvizyon);
             this.panel11.Controls.Add(this.rchmisyon);
             this.panel11.Controls.Add(this.msktelefon);
-            this.panel11.Controls.Add(this.txtsifre);
             this.panel11.Controls.Add(this.txtmail);
             this.panel11.Controls.Add(this.txtisim);
             this.panel11.Controls.Add(this.label18);
             this.panel11.Controls.Add(this.label17);
-            this.panel11.Controls.Add(this.label16);
             this.panel11.Controls.Add(this.label19);
             this.panel11.Controls.Add(this.label20);
             this.panel11.Controls.Add(this.label21);
@@ -259,7 +274,7 @@
             // 
             // rchvizyon
             // 
-            this.rchvizyon.Location = new System.Drawing.Point(99, 259);
+            this.rchvizyon.Location = new System.Drawing.Point(99, 224);
             this.rchvizyon.Name = "rchvizyon";
             this.rchvizyon.Size = new System.Drawing.Size(207, 94);
             this.rchvizyon.TabIndex = 12;
@@ -267,7 +282,7 @@
             // 
             // rchmisyon
             // 
-            this.rchmisyon.Location = new System.Drawing.Point(99, 149);
+            this.rchmisyon.Location = new System.Drawing.Point(99, 114);
             this.rchmisyon.Name = "rchmisyon";
             this.rchmisyon.Size = new System.Drawing.Size(207, 94);
             this.rchmisyon.TabIndex = 11;
@@ -280,13 +295,6 @@
             this.msktelefon.Name = "msktelefon";
             this.msktelefon.Size = new System.Drawing.Size(116, 27);
             this.msktelefon.TabIndex = 10;
-            // 
-            // txtsifre
-            // 
-            this.txtsifre.Location = new System.Drawing.Point(99, 114);
-            this.txtsifre.Name = "txtsifre";
-            this.txtsifre.Size = new System.Drawing.Size(116, 27);
-            this.txtsifre.TabIndex = 9;
             // 
             // txtmail
             // 
@@ -305,7 +313,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(14, 259);
+            this.label18.Location = new System.Drawing.Point(14, 227);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(73, 25);
             this.label18.TabIndex = 5;
@@ -314,20 +322,11 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(12, 152);
+            this.label17.Location = new System.Drawing.Point(12, 117);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(75, 25);
             this.label17.TabIndex = 4;
             this.label17.Text = "Misyon:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(33, 114);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(54, 25);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "Şifre:";
             // 
             // label19
             // 
@@ -350,7 +349,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(36, 9);
+            this.label21.Location = new System.Drawing.Point(36, 15);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(51, 25);
             this.label21.TabIndex = 0;
@@ -516,7 +515,6 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Controls.Add(this.label3);
             this.panel5.Location = new System.Drawing.Point(3, 3);
@@ -524,19 +522,10 @@
             this.panel5.Size = new System.Drawing.Size(327, 192);
             this.panel5.TabIndex = 0;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 34);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 25);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Başkan Yrd. :";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(8, 59);
+            this.label4.Location = new System.Drawing.Point(8, 92);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(106, 25);
             this.label4.TabIndex = 1;
@@ -545,31 +534,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 9);
+            this.label3.Location = new System.Drawing.Point(8, 38);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(82, 25);
             this.label3.TabIndex = 0;
             this.label3.Text = "Başkan :";
-            // 
-            // picCikis
-            // 
-            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
-            this.picCikis.Location = new System.Drawing.Point(333, 3);
-            this.picCikis.Name = "picCikis";
-            this.picCikis.Size = new System.Drawing.Size(43, 42);
-            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCikis.TabIndex = 13;
-            this.picCikis.TabStop = false;
-            // 
-            // picGeri
-            // 
-            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
-            this.picGeri.Location = new System.Drawing.Point(0, 3);
-            this.picGeri.Name = "picGeri";
-            this.picGeri.Size = new System.Drawing.Size(38, 35);
-            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picGeri.TabIndex = 12;
-            this.picGeri.TabStop = false;
             // 
             // FrmYonetimPaneli
             // 
@@ -591,6 +560,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.flowLayoutPanel6.ResumeLayout(false);
@@ -613,8 +584,6 @@
             this.flowLayoutPanel3.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -641,7 +610,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
@@ -657,12 +625,10 @@
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.RichTextBox rchmisyon;
         private System.Windows.Forms.MaskedTextBox msktelefon;
-        private System.Windows.Forms.TextBox txtsifre;
         private System.Windows.Forms.TextBox txtmail;
         private System.Windows.Forms.TextBox txtisim;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.RichTextBox rchvizyon;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox picCikis;

@@ -36,6 +36,8 @@
             this.BtnGiris = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.picCikis = new System.Windows.Forms.PictureBox();
+            this.picGeri = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label9 = new System.Windows.Forms.Label();
@@ -52,18 +54,14 @@
             this.TxtMisyon = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.TxtVizyon = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.BtnLogoEkle = new System.Windows.Forms.Button();
             this.BtnUyeOl = new System.Windows.Forms.Button();
-            this.picCikis = new System.Windows.Forms.PictureBox();
-            this.picGeri = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCikis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picGeri)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -160,6 +158,26 @@
             this.panel4.Size = new System.Drawing.Size(379, 75);
             this.panel4.TabIndex = 13;
             // 
+            // picCikis
+            // 
+            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
+            this.picCikis.Location = new System.Drawing.Point(336, 3);
+            this.picCikis.Name = "picCikis";
+            this.picCikis.Size = new System.Drawing.Size(43, 42);
+            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picCikis.TabIndex = 13;
+            this.picCikis.TabStop = false;
+            // 
+            // picGeri
+            // 
+            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
+            this.picGeri.Location = new System.Drawing.Point(3, 3);
+            this.picGeri.Name = "picGeri";
+            this.picGeri.Size = new System.Drawing.Size(38, 35);
+            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picGeri.TabIndex = 12;
+            this.picGeri.TabStop = false;
+            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
@@ -188,8 +206,6 @@
             this.flowLayoutPanel1.Controls.Add(this.TxtMisyon);
             this.flowLayoutPanel1.Controls.Add(this.label7);
             this.flowLayoutPanel1.Controls.Add(this.TxtVizyon);
-            this.flowLayoutPanel1.Controls.Add(this.label8);
-            this.flowLayoutPanel1.Controls.Add(this.BtnLogoEkle);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(22, 121);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(341, 437);
@@ -355,33 +371,6 @@
             this.TxtVizyon.Size = new System.Drawing.Size(282, 33);
             this.TxtVizyon.TabIndex = 33;
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.label8.Location = new System.Drawing.Point(0, 547);
-            this.label8.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(62, 25);
-            this.label8.TabIndex = 36;
-            this.label8.Text = "Logo :\r\n";
-            // 
-            // BtnLogoEkle
-            // 
-            this.BtnLogoEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
-            this.BtnLogoEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLogoEkle.Font = new System.Drawing.Font("Montserrat", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnLogoEkle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
-            this.BtnLogoEkle.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.BtnLogoEkle.Location = new System.Drawing.Point(62, 547);
-            this.BtnLogoEkle.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            this.BtnLogoEkle.Name = "BtnLogoEkle";
-            this.BtnLogoEkle.Size = new System.Drawing.Size(53, 47);
-            this.BtnLogoEkle.TabIndex = 27;
-            this.BtnLogoEkle.Text = "+";
-            this.BtnLogoEkle.UseVisualStyleBackColor = false;
-            // 
             // BtnUyeOl
             // 
             this.BtnUyeOl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(128)))));
@@ -393,26 +382,6 @@
             this.BtnUyeOl.TabIndex = 39;
             this.BtnUyeOl.Text = "ÜYE OL";
             this.BtnUyeOl.UseVisualStyleBackColor = false;
-            // 
-            // picCikis
-            // 
-            this.picCikis.Image = ((System.Drawing.Image)(resources.GetObject("picCikis.Image")));
-            this.picCikis.Location = new System.Drawing.Point(336, 3);
-            this.picCikis.Name = "picCikis";
-            this.picCikis.Size = new System.Drawing.Size(43, 42);
-            this.picCikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picCikis.TabIndex = 13;
-            this.picCikis.TabStop = false;
-            // 
-            // picGeri
-            // 
-            this.picGeri.Image = ((System.Drawing.Image)(resources.GetObject("picGeri.Image")));
-            this.picGeri.Location = new System.Drawing.Point(3, 3);
-            this.picGeri.Name = "picGeri";
-            this.picGeri.Size = new System.Drawing.Size(38, 35);
-            this.picGeri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picGeri.TabIndex = 12;
-            this.picGeri.TabStop = false;
             // 
             // FrmKulupBasvuru
             // 
@@ -431,11 +400,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picCikis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picGeri)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -462,8 +431,6 @@
         private System.Windows.Forms.TextBox TxtMisyon;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox TxtVizyon;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button BtnLogoEkle;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox TxtKulupAd;
         private System.Windows.Forms.Button BtnUyeOl;
